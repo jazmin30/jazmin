@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link  rel = " shortcut icon "  type = "img/jpg"  href = "img/estrella.jpg" >
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+
+
+		<nav>
+
+      <div class="nav-wrapper">
+        <a class="logo" ><img src="img/logo.jpg" alt="logo" class="logo_img" height="75" width="75">ROYAL HOTEL</a>
+
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+
+          <i class="material-icons">menu</i></a>
+          <!---cambiamos letra con clas-->
+          <ul class="right hide-on-med-and-down bevan">
+            <li><a href="Hotel Royal.html">Inicio</a></li>
+            <li><a href="habitaciones.html">Habitaciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="#" class="dropdown-trigger" data-target="dropdown1">Conoce más<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+          <!----dropnavbar 1---->
+        </div>
+      </nav>
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="restaurante-bar.html">Restaurante-Bar</a></li>
+      </ul>
+        <ul class="sidenav bevan" id="mobile-demo">
+          <li><a href="Hotel Royal.html">Inicio</a></li>
+            <li><a href="habitaciones.html">Habitaciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="restaurante-bar.html">Restaurante-Bar</a></li>
+          </ul> 
+    </header>
+
+
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12 m6 l6">
+            <i class="material-icons prefix">face</i>
+            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+            <label for="icon_prefix2">Nombre</label>
+          </div>
+          <div class="input-field col s12 m6 l6">
+            <i class="material-icons prefix">face</i>
+            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+            <label for="icon_prefix2">Apellidos</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m6 l6">
+            <i class="material-icons prefix">contact_mail</i>
+            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+            <label for="icon_prefix2">Email</label>
+          </div>
+          <div class="input-field col s12 m6 l6">
+            <i class="material-icons prefix">contact_phone</i>
+            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+            <label for="icon_prefix2">Télefono</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m5 l5">
+            <input id="password" type="date" class="validate">
+            <label for="password">Fechas de Entrada</label>
+          </div>
+          <div class="input-field col s12 m5 l5">
+            <input id="password" type="date" class="validate">
+            <label for="password">Hasta</label>
+          </div>
+          <div class="input-field col s12 m2 l2">
+            <input id="password" type="submit" class="validate">
+          </div>
+
+          <iframe class="s12 m6 l6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.3972848008348!2d-99.13445632948363!3d19.3952332013832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fef220eb4c85%3A0x50971812fb21c6e9!2sManuel+Jos%C3%A9+Oth%C3%B3n%2C+San+Pedro+Iztacalco%2C+08220+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1548709257760" width="300" height="300"></iframe>
+          <p class="maps">Nuestra Ubicación</p>
+
+
+      </div>
+    </form>
+  </div>
+  <!--JavaScript at end of body for optimized loading-->
+  <footer class="page-footer" >
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12">
+          <h5 class="white-text">ROYAL HOTEL</h5>
+          <br>
+          <h5 class="white-text1">NUESTRAS REDES SOCIALES</h5>
+          <ul class="lista">
+            <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/">Facebook</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/?hl=es-la">Instagram</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://twitter.com/?lang=es">Twitter</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2019 Derechos Reservados Jazmín López
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+<script  src="js/materialize.min.js"></script>
+<script  src="js/app.js"></script>
+</html>
+
+<!---Etiqueta de sitio global (gtag.js) - Google Analytics->
+< script  type = " text / javascript "  src = " js / jquery-3.3.1.min.js " > </ script >
+< script  type = " text / javascript "  src = " js / materialize.min.js " > </ script >
+< script  type = " text / javascript "  src = " js / app1.js " > </ script >
+
+<-Etiqueta de sitio global (gtag.js) - Google Analytics->
+< script  async  src = " https://www.googletagmanager.com/gtag/js?id=UA-132785452-1 " > </ script >
+< script >
+  ventana . dataLayer  =  ventana . dataLayer  || [];
+  función  gtag () { dataLayer . empujar ( argumentos );}
+  gtag ( ' js ' , new  Date ());
+  gtag ( ' config ' , ' UA-132785452-1 ' );
+</ script >*/
